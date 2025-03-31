@@ -1,2 +1,3 @@
-# genius-test
+# Genius
+
 courses
