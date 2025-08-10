@@ -259,23 +259,29 @@
             </button>
             <h2 class="modal-title">Замовити дзвінок</h2>
             <p class="modal-text">Залишіть заявку та наш спеціаліст зв'яжеться з вами!</p>
-            <form name="modal-form" autocomplete="off" novalidate>
+            <form name="modal-form" autocomplete="off">
                 <div class="form-field">
-                    <input class="form-input" id="user-name" name="user-name" type="text" placeholder="Ім'я" />
+                    <input class="form-input" id="user-name" name="user-name" type="text" placeholder="Ім'я" required />
                     <label class="form-label hidden" for="user-name">Ім'я</label>
 
                 </div>
                 <div class="form-field">
-                    <input class="form-input" id="user-phone" name="user-phone" type="text" placeholder="Телефон" />
+                    <input class="form-input" id="user-phone" name="user-phone" type="text" placeholder="Телефон"
+                        pattern="^\+\d{12}$" required />
                     <label class="form-label hidden" for="user-phone">Телефон</label>
 
                 </div>
                 <div class="form-field">
                     <input class="form-input" id="user-email" name="user-email" type="email"
-                        placeholder="Електронна пошта" />
+                        placeholder="Електронна пошта" required />
                     <label class="form-label hidden" for="user-email">Електронна пошта</label>
-
                 </div>
+                <!-- <div class="checkbox">
+                    <input class="checkbox-input hidden" type="checkbox" id="terms-conditions" name="user-consent"
+                        required />
+                    <label class="checkbox-label" for="terms-conditions">Я погоджуюсь з політикою
+                        конфіденційності</label>
+                </div> -->
                 <button class="form-button button" type="submit">Замовити дзвінок</button>
                 <p class="form-terms"> Натискаючи на кнопку я погоджуюсь <a class="form-link" href="#">з політикою
                         конфіденційності</a>
