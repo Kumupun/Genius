@@ -6,18 +6,18 @@ header {
   padding-top: 32px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   flex-grow: 1;
   align-items: center;
 }
-.header-menu {
+.header__menu {
   display: flex;
   flex-grow: 1;
   justify-content: center;
