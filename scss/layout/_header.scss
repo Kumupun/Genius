@@ -1,25 +1,26 @@
-header {
+.header {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   padding-top: 32px;
-}
 
-.header__container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 
-.header__nav {
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-}
-.header__menu {
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  gap: 64px;
+  &__nav {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 64px;
+  }
 }
