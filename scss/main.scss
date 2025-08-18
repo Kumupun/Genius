@@ -9,6 +9,7 @@
 @use './components/chef-card' as *;
 @use './components/format-card' as *;
 @use './components/carousel-button' as *;
+@use './components/input' as *;
 
 @use './layout/section' as *;
 @use './layout/container' as *;
@@ -21,7 +22,7 @@
 @use './layout/contact-section' as *;
 @use './layout/footer' as *;
 @use './layout/modal' as *;
-@use './layout/forms' as *;
+@use './layout/form-terms' as *;
 
 /* checkbox styles*/
 /*.checkbox {
